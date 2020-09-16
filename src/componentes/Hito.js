@@ -1,21 +1,30 @@
 import React from 'react';
 
-function Hito () {
-
+function Hito(props) {
+let item=props.item;
     return (
-        <div className="row">
-            <div className="col-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut eos magni, cum ab possimus consectetur vero dolor voluptate, at quae ullam, in eaque nobis! Ducimus, id! Velit, dolore blanditiis.
+        <div className="row pb-2 mb-1">
+
+            <div className="col text-right">
+                <h3>
+                    <span className="badge badge-info">
+                        {item.anno}
+                </span>
+                </h3>
             </div>
-            <div className="col-2">
-                2020
-            </div>
-            <div className="col-5">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias delectus cum voluptatem ex dignissimos doloribus, deleniti aliquid non saepe voluptas voluptate tempora vero provident harum quisquam aperiam, excepturi velit temporibus.
-            </div>
+            {
+                item.hitos.map((hito, i)=>(
+                    <div key={"hito"+i} className="col-8 alert alert-dark">
+                            {hito.descripcion }
+                    </div>
+                ))
+            }
+
+            
+
         </div>
     )
-    
+
 }
 
 export default Hito;

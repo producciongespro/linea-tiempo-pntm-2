@@ -1,9 +1,24 @@
 import React from 'react';
 import Hito from './Hito';
+import dataset from '../data.json';
+console.log("data",dataset);
 
 
 function Main () {
 
+    const obtenerData =()=> {
+        fetch("../data.json")
+            .then(resp=> {
+                let json= resp.json();
+                console.log("adsdsa", json);
+                return json;
+            } )
+            .then(json=>{
+                console.log("json", json);
+            })        
+    }
+
+    //obtenerData();
 
     return (
         <React.Fragment>
@@ -13,7 +28,13 @@ function Main () {
         <div className="container">
             PRUEBA DE VISTAS
              <hr/>
-             <Hito />
+            {
+                dataset.map((item, i)=>(
+                    <Hito key={i} item={item} />
+                ))  
+            }
+
+             
         </div>
         </React.Fragment>
     )
