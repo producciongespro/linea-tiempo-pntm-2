@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, forwardRef, useRef, useImperativeHandle } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
-function CustomModal() {
+
+function CustomModal( ) {
     const [show, setShow] = useState(false);
   
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = () =>  setShow(true);
   
     return (
       <>
-        <Button variant="primary" onClick={handleShow}>
+        <Button variant="primary" onClick={ handleShow }>
           Launch demo modal
         </Button>
   

@@ -28,10 +28,14 @@ function Main () {
     return (
         <React.Fragment>
             <div className="jumbotron">
-            <h1>Línea de tiempo PNTM</h1>
+            <h1>Línea de tiempo PNTM</h1>            
         </div>
         <div className="container">
             PRUEBA DE VISTAS
+            <button
+                onClick={() => refs.child.handleShow()}
+            >
+                ABRIR</button>
              <hr/>
             {
                 dataset.map((item, i)=>(
@@ -41,7 +45,7 @@ function Main () {
 
              
         </div>
-        <CustomModal />
+        <CustomModal ref="handleShow" />
         </React.Fragment>
     )
         
