@@ -1,6 +1,11 @@
 import React from 'react';
 import Hito from './Hito';
+import CustomModal from './CustomModal';
 import dataset from '../data.json';
+
+
+
+
 console.log("data",dataset);
 
 
@@ -36,6 +41,7 @@ function Main () {
 
              
         </div>
+        <CustomModal />
         </React.Fragment>
     )
         
