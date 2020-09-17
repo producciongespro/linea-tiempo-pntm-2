@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import dataset from './data.json';
+import filtrar from './funciones/filtrar';
 import Modal from 'react-bootstrap/Modal';
 import Hito from './componentes/Hito';
 
@@ -8,7 +9,15 @@ console.log("data", dataset);
 function App() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
+  const handleShow = (e) => {
+    let id=e.target.id;
+    let hitosPorAnno=filtrar(dataset, "anno", 1994 )[0].hitos;
+    console.log(hitosPorAnno);
+
+    console.log(id);
+    setShow(true);
+  };
 
 
   const cModal = (
