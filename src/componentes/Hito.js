@@ -19,7 +19,7 @@ let item=props.item;
                 item.hitos.map((hito, i)=>(
                     <div 
                         key={"hito"+i} 
-                        className="alert alert-dark animate__animated animate__bounceInLeft"
+                        className="alert alert-dark animate__animated animate__bounceInLeft puntero-mano"
                         onClick={props.handleShow}
                         onKeyPress={props.handleShow}
                         id={hito.id}

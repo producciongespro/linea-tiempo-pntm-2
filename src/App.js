@@ -14,10 +14,12 @@ function App() {
   const handleClose = () => setShow(false);
 
   const handleShow = (e) => {
+
     setInfoLink(e.target.dataset.link);
     setInfoModal(e.target.dataset.modal);
     setInfoAnno(e.target.id.slice(0,4) );
     setShow(true);
+
   };
 
   useEffect(()=>{
