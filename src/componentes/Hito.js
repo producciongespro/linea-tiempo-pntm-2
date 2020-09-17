@@ -7,7 +7,7 @@ let item=props.item;
 
             <div className="col-2">                
                     <span 
-                        className="badge badge-info campo-mediano  animate__animated animate__heartBeat"
+                        className="badge badge-dark campo-mediano  animate__animated animate__heartBeat"
                         >
                         {item.anno}
                     </span>                

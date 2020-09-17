@@ -47,11 +47,11 @@ function App() {
 
   return (
     <React.Fragment>
-      <div className="jumbotron">
-        <h1>Línea de tiempo PNTM</h1>
+      <div className="jumbotron text-center sidebar">
+        <h1>Línea de Tiempo</h1>
+        <strong>Línea de Tiempo de la Inclusión de las Tecnologías Digitales en la Educación Costarricense</strong>
       </div>
-      <div className="container">
-        PRUEBA DE VISTAS
+      <div className="container">        
       <hr />
       {
         dataset.map((item,i)=>( 
