@@ -23,6 +23,8 @@ let item=props.item;
                         onClick={props.handleShow}
                         onKeyPress={props.handleShow}
                         id={hito.id}
+                        data-modal={hito.modal}
+                        data-link={hito.link}
                         >
                             {hito.descripcion }
                     </div>

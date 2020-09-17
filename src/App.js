@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import dataset from './data.json';
-import filtrar from './funciones/filtrar';
 import Modal from 'react-bootstrap/Modal';
 import Hito from './componentes/Hito';
 
@@ -8,16 +7,21 @@ console.log("data", dataset);
 
 function App() {
   const [show, setShow] = useState(false);
+  const [infoModal, setInfoModal]=useState(null);
+  const [infoLink, setInfoLink ]=useState(null);
+
   const handleClose = () => setShow(false);
 
   const handleShow = (e) => {
-    let id=e.target.id;
-    let hitosPorAnno=filtrar(dataset, "anno", 1994 )[0].hitos;
-    console.log(hitosPorAnno);
-
-    console.log(id);
+    setInfoLink(e.target.dataset.link);
+    setInfoModal(e.target.dataset.modal);
     setShow(true);
   };
+
+  useEffect(()=>{
+    console.log("infoModal", infoModal);
+    console.log("infoLink", infoLink);
+  });
 
 
   const cModal = (
@@ -26,8 +30,11 @@ function App() {
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>
+            {infoModal}
+        </Modal.Body>
         <Modal.Footer>
+          <a href={infoLink} target="_blank" rel="noopener noreferrer"> Visitar link </a>          
         </Modal.Footer>
       </Modal>
     </>
