@@ -3,6 +3,7 @@
         "anno": 1985,
         "hitos": [
             {
+                "id": "1985-1",
                 "descripcion": "fdsfsdfsdfsf",
                 "link": "https://www.mep.go.cr/",
                 "modal": "sfds fsd f sdf sdf sd fsd fmodal"
@@ -14,6 +15,7 @@
         "anno": 1988,
         "hitos": [
             {
+                "id": "1988-1",
                 "descripcion": "fdsfsdfsdfsf",
                 "link": "https://www.mep.go.cr/",
                 "modal": "sfds fsd f sdf sdf sd fsd fmodal"
@@ -22,9 +24,10 @@
         ]
     },
     {
-        "anno": 1983,
+        "anno": 1993,
         "hitos": [
             {
+                "id": "1993-1",
                 "descripcion": "fdsfsdfsdfsf",
                 "link": "https://www.mep.go.cr/",
                 "modal": "sfds fsd f sdf sdf sd fsd fmodal"
@@ -36,16 +39,19 @@
         "anno": 1994,
         "hitos": [
             {
+                "id": "1994-1",
                 "descripcion": "fdsfsdfsdfsf",
                 "link": "https://www.mep.go.cr/",
                 "modal": "sfds fsd f sdf sdf sd fsd fmodal"
             },
             {
+                "id": "1994-2",
                 "descripcion": "fdsfsdfsdfsf",
                 "link": "https://www.mep.go.cr/",
                 "modal": "sfds fsd f sdf sdf sd fsd fmodal"
             },
             {
+                "id": "1994-3",
                 "descripcion": "fdsfsdfsdfsf",
                 "link": "https://www.mep.go.cr/",
                 "modal": "sfds fsd f sdf sdf sd fsd fmodal"

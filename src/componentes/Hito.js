@@ -6,7 +6,9 @@ let item=props.item;
         <div className="row pb-2 mb-1">
 
             <div className="col-2">                
-                    <span className="badge badge-info campo-mediano">
+                    <span 
+                        className="badge badge-info campo-mediano  animate__animated animate__heartBeat"
+                        >
                         {item.anno}
                     </span>                
             </div>
@@ -15,7 +17,13 @@ let item=props.item;
             <div className="col-8">
             {
                 item.hitos.map((hito, i)=>(
-                    <div key={"hito"+i} className="alert alert-dark">
+                    <div 
+                        key={"hito"+i} 
+                        className="alert alert-dark animate__animated animate__bounceInLeft"
+                        onClick={props.handleShow}
+                        onKeyPress={props.handleShow}
+                        id={hito.id}
+                        >
                             {hito.descripcion }
                     </div>
                 ))
