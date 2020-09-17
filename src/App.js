@@ -8,19 +8,22 @@ console.log("data", dataset);
 function App() {
   const [show, setShow] = useState(false);
   const [infoModal, setInfoModal]=useState(null);
-  const [infoLink, setInfoLink ]=useState(null);
+  const [infoLink, setInfoLink]=useState(null);
+  const [infoAnno, setInfoAnno]=useState(null);
 
   const handleClose = () => setShow(false);
 
   const handleShow = (e) => {
     setInfoLink(e.target.dataset.link);
     setInfoModal(e.target.dataset.modal);
+    setInfoAnno(e.target.id.slice(0,4) );
     setShow(true);
   };
 
   useEffect(()=>{
-    console.log("infoModal", infoModal);
-    console.log("infoLink", infoLink);
+    //console.log("infoModal", infoModal);
+    //console.log("infoLink", infoLink);
+    console.log("infoAnno", infoAnno  );
   });
 
 
@@ -28,7 +31,9 @@ function App() {
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>
+            {infoAnno}
+          </Modal.Title>
         </Modal.Header>
         <Modal.Body>
             {infoModal}
