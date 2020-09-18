@@ -13,7 +13,10 @@ function Hito(props) {
         //Método que agrega la animación y ejecuta elmýtodo de props para abrir el modal
         let target= e.target;
         props.handleShow(target);        
-        target.classList.add("animate__bounce");
+        target.classList.add("animate__headShake");
+        setInterval(() => {
+            target.classList.remove("animate__headShake");
+        }, 1000);
     }
 
 
