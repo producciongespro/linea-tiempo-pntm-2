@@ -4,9 +4,10 @@
         "hitos": [
             {
                 "id": "1985-1",
-                "descripcion": "Creación delprimer centro experimental en la escuela Bachiller Osejo en Sabana Sur",
+                "descripcion": "Creación del primer centro experimental en la escuela Bachiller Osejo en Sabana Sur",
                 "link": "https://www.mep.go.cr/",
-                "modal": "En la escuela Rafael Francisco Osejo se abre el primer centro experimental para la enseñanza de la informática, gracias a la donación de 10 computadoras por parte de la empresa International Business Machines (IBM), al MEP. Esta iniciativa piloto, abre las puertas para la expansión de la inclusión de las TD hacia otros centros educativos, que en corto tiempo se conformó en la Red de Centros para la Enseñanza en Informática (CEI)."
+                "modal": "En la escuela Rafael Francisco Osejo se abre el primer centro experimental para la enseñanza de la informática, gracias a la donación de 10 computadoras por parte de la empresa International Business Machines (IBM), al MEP. Esta iniciativa piloto, abre las puertas para la expansión de la inclusión de las TD hacia otros centros educativos, que en corto tiempo se conformó en la Red de Centros para la Enseñanza en Informática (CEI).",
+                "ico": "lab.svg"
             }
 
         ]
@@ -16,9 +17,10 @@
         "hitos": [
             {
                 "id": "1988-1",
-                "descripcion": "fdsfsdfsdfsf",
+                "descripcion": "Vivamus a mi Morbi neque Aliquam erat volutpat.",
                 "link": "https://www.mep.go.cr/",
-                "modal": "sfds fsd f sdf sdf sd fsd fmodal"
+                "modal": "sfds fsd f sdf sdf sd fsd fmodal",
+                "ico": "lab.svg"
             }
 
         ]
@@ -30,31 +32,28 @@
                 "id": "1993-1",
                 "descripcion": "Primera conexión a Internet en Costa Rica",
                 "link": "https://bit.ly/32Fdwku",
-                "modal": "Desde la Ciudad Universitaria Rodrigo Facio en la Universidad de Costa Rica, se realiza la primera conexión a Internet, convirtiendo a Costa Rica en el quinto país de América Latina en conectarse a la red mundial que cambiaría para siempre en el mundo los esquemas tradicionales de comunicación, la gestión de la información y el conocimiento."
+                "modal": "Desde la Ciudad Universitaria Rodrigo Facio en la Universidad de Costa Rica, se realiza la primera conexión a Internet, convirtiendo a Costa Rica en el quinto país de América Latina en conectarse a la red mundial que cambiaría para siempre en el mundo los esquemas tradicionales de comunicación, la gestión de la información y el conocimiento.",
+                "ico": "worldwide.svg"
             }
 
         ]
     },
     {
         "anno": 1994,
-        "hitos": [
+        "hitos": [       
             {
                 "id": "1994-1",
-                "descripcion": "fdsfsdfsdfsf",
+                "descripcion": "Maecenas pede purus, tristique ac tempus eget. ",
                 "link": "https://www.mep.go.cr/",
-                "modal": "sfds fsd f sdf sdf sd fsd fmodal"
+                "modal": "Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris. Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lacinia pretium, pede metus molestie lacus, at gravida wisi ante at libero. Quisque ornare placerat risus.",
+                "ico": "school.svg"
             },
             {
                 "id": "1994-2",
-                "descripcion": "fdsfsdfsdfsf",
+                "descripcion": "Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor.",
                 "link": "https://www.mep.go.cr/",
-                "modal": "sfds fsd f sdf sdf sd fsd fmodal"
-            },
-            {
-                "id": "1994-3",
-                "descripcion": "fdsfsdfsdfsf",
-                "link": "https://www.mep.go.cr/",
-                "modal": "sfds fsd f sdf sdf sd fsd fmodal"
+                "modal": "Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl. Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh.",
+                "ico": "lab.svg"
             }
 
         ]
@@ -66,7 +65,8 @@
                 "id": "2016-1",
                 "descripcion": "Promulgación de la Política Curricular",
                 "link": "https://www.mep.go.cr/",
-                "modal": "Un hecho relevante en la historia de la inclusión de las TD en la educación costarricense lo demarca la aprobación de la Política Curricular, en el marco de la visión “Educar para una Nueva Ciudadanía”, para el desarrollo de habilidades que permiten la dinamización de los aprendizajes para la vida y el fortalecimiento del pensamiento crítico, creativo y actitudinal."
+                "modal": "Un hecho relevante en la historia de la inclusión de las TD en la educación costarricense lo demarca la aprobación de la Política Curricular, en el marco de la visión “Educar para una Nueva Ciudadanía”, para el desarrollo de habilidades que permiten la dinamización de los aprendizajes para la vida y el fortalecimiento del pensamiento crítico, creativo y actitudinal.",
+                "ico": "school.svg"
             }        
 
         ]
@@ -78,7 +78,8 @@
                 "id": "2017-1",
                 "descripcion": "Promulgación de la Política Educativa",
                 "link": "https://www.mep.go.cr/",
-                "modal": "La Política Educativa, “La persona: centro del proceso educativo y sujeto transformador de la sociedad”, plantea la educación centrada en la persona estudiante, la educación basada en los derechos humanos y los deberes ciudadanos, la educación para el desarrollo sostenible, la ciudadanía planetaria con identidad nacional, la ciudadanía digital con equidad social y la evaluación transformadora para la toma de decisiones."
+                "modal": "La Política Educativa, “La persona: centro del proceso educativo y sujeto transformador de la sociedad”, plantea la educación centrada en la persona estudiante, la educación basada en los derechos humanos y los deberes ciudadanos, la educación para el desarrollo sostenible, la ciudadanía planetaria con identidad nacional, la ciudadanía digital con equidad social y la evaluación transformadora para la toma de decisiones.",
+                "ico": "lab.svg"
             }        
 
         ]
@@ -90,7 +91,8 @@
                 "id": "2019-1",
                 "descripcion": "Modelo para la Inclusión de Tecnologías Digitales en Educación",
                 "link": "https://www.mep.go.cr/",
-                "modal": "Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus."
+                "modal": "Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus.",
+                "ico": "online-class.svg"
             }        
 
         ]
@@ -102,13 +104,15 @@
                 "id": "2020-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
                 "link": "https://www.mep.go.cr/",
-                "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas."
+                "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
+                "ico": "school.svg"
             },
             {
                 "id": "2020-2",
                 "descripcion": "Promulgación de la Política de Tecnologías de la Información",
                 "link": "https://www.mep.go.cr/",
-                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia."
+                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
+                "ico": "cloud.svg"
             }  
 
         ]

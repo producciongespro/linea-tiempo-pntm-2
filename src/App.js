@@ -51,10 +51,13 @@ function App() {
     <React.Fragment>
       <div className="jumbotron text-center sidebar">
         <h1>Línea de Tiempo</h1>
-        <strong>Línea de Tiempo de la Inclusión de las Tecnologías Digitales en la Educación Costarricense</strong>
+        <strong>
+          <span className="font-2" >
+            Línea de Tiempo de la Inclusión de las Tecnologías Digitales en la Educación Costarricense
+          </span>
+        </strong>
       </div>
-      <div className="container">        
-      <hr />
+      <div className="container">              
       {
         dataset.map((item,i)=>( 
           <Hito key={"hito"+i} item={item} handleShow={handleShow} />

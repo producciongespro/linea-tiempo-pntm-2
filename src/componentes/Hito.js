@@ -1,4 +1,6 @@
 import React from 'react';
+import config from '../config.json';
+const icoUrl=config.icoUrl;
 
 function Hito(props) {
 
@@ -11,11 +13,11 @@ function Hito(props) {
 
     const handleAddAnimation=(e)=> {             
         //Método que agrega la animación y ejecuta elmýtodo de props para abrir el modal
-        let target= e.target;
-        props.handleShow(target);        
-        target.classList.add("animate__headShake");
+        let cTarget= e.currentTarget;
+        props.handleShow(cTarget);        
+        cTarget.classList.add("animate__headShake");
         setInterval(() => {
-            target.classList.remove("animate__headShake");
+            cTarget.classList.remove("animate__headShake");
         }, 1000);
     }
 
@@ -47,7 +49,12 @@ let item=props.item;
                         data-link={hito.link}
                         role="button"
                         >
-                            {hito.descripcion }
+                            <p className="font-2" >
+                                {hito.descripcion }
+                            </p>                            
+                            <p className="text-center" >
+                                <img className="img-peq" src={ icoUrl + hito.ico} alt="hito.ico" />
+                            </p>
                     </div>
                 ))
             }
