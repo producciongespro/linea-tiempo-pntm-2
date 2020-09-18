@@ -1,7 +1,7 @@
 .div-division {    
     z-index: -990;    
     border-right: 5px solid red;
-    background-color: #839496;
+    background-color: darkslategray
 }
 
 .campo-mediano {
@@ -19,6 +19,7 @@
     
   .div-hito {
     cursor: pointer;
+    margin-top: 0.5em;
   }
 
   .img-peq {

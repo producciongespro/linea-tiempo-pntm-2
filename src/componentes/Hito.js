@@ -32,21 +32,20 @@ let item=props.item;
                         >
                         {item.anno}
                     </span>                
-            </div>           
-            <div className="col-10">
+            </div> 
+            <div className="col-2 div-division"></div>          
+            <div className="col-8 text-center">
             {
                 item.hitos.map((hito, i)=>(
-                   <React.Fragment   key={"hito"+i} >
-                       <div className="col">
-                        <p className="text-center" >
-                            <img className="img-fluid" src={ icoUrl + hito.ico} alt="hito.ico" />
-                        </p>
-                       </div>
-
-                        <div 
-                      
-                        //className="col-10 alert alert-dark div-hito animate__animated animate__bounceInLeft"
-                        className="col"
+                    <React.Fragment key={"hito"+i}  >
+                    <img 
+                        className="img-peq animate__animated animate__bounceInRight" 
+                        src={ icoUrl + hito.ico} 
+                        alt="hito.ico" />
+                        
+                        <div                       
+                        className="text-left alert alert-dark div-hito animate__animated animate__bounceInLeft"
+                                              
                         onAnimationEnd={handleRemoveAnimation}                        
                         onClick={ handleAddAnimation}
                         onKeyPress={handleAddAnimation}                        
@@ -57,9 +56,9 @@ let item=props.item;
                         >
                             <p className="font-2" >
                                 {hito.descripcion }
-                            </p>                                                        
+                            </p>                                                           
                     </div>
-                   </React.Fragment>
+                    </React.Fragment> 
                 ))
             }
 
