@@ -13,11 +13,11 @@ function App() {
 
   const handleClose = () => setShow(false);
 
-  const handleShow = (e) => {
+  const handleShow = (target) => {
 
-    setInfoLink(e.target.dataset.link);
-    setInfoModal(e.target.dataset.modal);
-    setInfoAnno(e.target.id.slice(0,4) );
+    setInfoLink(target.dataset.link);
+    setInfoModal(target.dataset.modal);
+    setInfoAnno(target.id.slice(0,4) );
     setShow(true);
 
   };

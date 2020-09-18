@@ -16,11 +16,13 @@
       z-index: 900;
   }
 
-  .puntero-mano {
-      cursor: pointer;
+    
+  .div-hito {
+    cursor: pointer;
   }
 
-   
-  .puntero-mano:hover {
-       animation-name:  bounce; 
-  }
+
+
+  
+
+  
