@@ -4,6 +4,10 @@
     background-color: darkslategray
 }
 
+.titulo-splash {
+    margin-top: 5em;
+}
+
 .campo-mediano {
     font-size: 1.5em;
     padding: 0.4em;

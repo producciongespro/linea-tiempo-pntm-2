@@ -21,7 +21,7 @@ function App() {
     if (platform === "escritorio") {
       setComponente(<Escritorio data={data} />)
     }
-  }, 2000);
+  }, 1500);
  },[] )
 
   return (
