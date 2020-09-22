@@ -10,6 +10,8 @@ export default function HitoEsc(props) {
     const [infoModal, setInfoModal] = useState(null);
     const [infoLink, setInfoLink] = useState(null);
     const [infoAnno, setInfoAnno] = useState(null);
+    //Estados para controlar los hitos del carrusel
+    const [index, setIndex] = useState(0);
 
     const handleClose = () => setShow(false);
 
@@ -17,25 +19,46 @@ export default function HitoEsc(props) {
         let target=e.target;
         setInfoLink(target.dataset.link);
         setInfoModal(target.dataset.modal);
-        setInfoAnno(target.id.slice(0, 4));
+        setInfoAnno(target.id.slice(0, 4) );
         setShow(true);
     };
+
+    const handleSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
+      };
+
+      //arreglo con los años de todos los hitos
+      var annos=[];
 
     useEffect(() => {
         //console.log("infoModal", infoModal);
         //console.log("infoLink", infoLink);
-        console.log("infoAnno", infoAnno);
+        //console.log("infoAnno", infoAnno);
+        console.log("index", index);
     });
 
 
     return (
         <React.Fragment>
-            <Carousel>
+            <div className="row">
+                <div className="col-12 text-center">
+            <Carousel 
+                activeIndex={index} 
+                onSelect={handleSelect}
+                interval={null}
+                >
                 {
                     props.data.map((item) => (
                         item.hitos.map((hito, i) => (
                             <Carousel.Item key={"hito" + i} >
                                 <div className="row">
+                                    {
+                                        //Agregas años por hitos para mostrarlos luego en la fila inferior de años
+                                        annos.push(hito.id.slice(0, 4))  
+                                    }
+                                    {
+                                       // console.log(annos)
+                                    }
                                     <div className="col-6  offset-md-3 mb-4">
                                         <div className="card" >
 
@@ -61,12 +84,24 @@ export default function HitoEsc(props) {
                                     </div>
                                 </div>
                                 <br />
-                            </Carousel.Item>
+                            </Carousel.Item>                            
                         ))
 
                     ))
                 }
             </Carousel>
+                </div>
+                    </div>
+
+            <div className="row">
+                <div className="col-12 text-center visor-anno" >                    
+                        {
+                            annos[index]
+                        }                    
+                </div>
+            </div>
+
+
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>

@@ -37,6 +37,15 @@
   }
 
 
+  .card-title {
+      min-height: 3em;
+  }
+
+  .visor-anno {
+      font-size: 2em;
+      font-weight: bold;
+  }
+
 
   
 

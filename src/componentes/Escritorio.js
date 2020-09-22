@@ -9,14 +9,14 @@ export default function Escritorio(props) {
         <React.Fragment>
             <div className="jumbotron">
                 <h1>Línea de tiempo PNTM</h1>
+                <strong>
+                    <span className="font-2" >
+                        Línea de Tiempo de la Inclusión de las Tecnologías Digitales en la Educación Costarricense
+            </span>
+                </strong>
             </div>
             <hr />
-            <div className="row">
-                <div className="col-12 text-center">
-                    <HitoEsc data={props.data} />
-                </div>
-            </div>
-
+            <HitoEsc data={props.data} />
         </React.Fragment>
     )
 
