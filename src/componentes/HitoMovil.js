@@ -2,7 +2,7 @@ import React from 'react';
 import config from '../config.json';
 const icoUrl=config.icoUrl;
 
-function Hito(props) {
+function HitoMovil(props) {
 
     //Administración de animaciones
     const handleRemoveAnimation=(e)=> {
@@ -68,4 +68,4 @@ let item=props.item;
 
 }
 
-export default Hito;
+export default HitoMovil;

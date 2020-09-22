@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-bootstrap/Modal';
-import Hito from './Hito';
+import HitoMovil from './HitoMovil';
 
 
 function Movil (props) {
@@ -59,7 +59,7 @@ function Movil (props) {
         <div className="container">              
         {
           props.data.map((item,i)=>( 
-            <Hito key={"hito"+i} item={item} handleShow={handleShow} />
+            <HitoMovil key={"item"+i} item={item} handleShow={handleShow} />
           ))
         }
    

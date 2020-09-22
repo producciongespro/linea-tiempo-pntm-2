@@ -27,6 +27,11 @@
       height: auto;
   }
 
+  .ico-desktop {
+    width: 10%;
+    height: auto;
+}
+
   .font-2 {
       font-size: 1.2em;
   }
