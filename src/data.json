@@ -18,7 +18,7 @@
             {
                 "id": "1988-1",
                 "descripcion": "Vivamus a mi Morbi neque Aliquam erat volutpat.",
-                "link": "https://www.mep.go.cr/",
+                "link": "http://fod.ac.cr/?option=com_content&view=article&id=124&Itemid=249",
                 "modal": "sfds fsd f sdf sdf sd fsd fmodal",
                 "ico": "lab.svg"
             }
@@ -31,7 +31,7 @@
             {
                 "id": "1993-1",
                 "descripcion": "Primera conexión a Internet en Costa Rica",
-                "link": "https://bit.ly/32Fdwku",
+                "link": "https://www.ucr.ac.cr/noticias/2018/02/13/ucr-pionera-en-conexion-a-internet.html",
                 "modal": "Desde la Ciudad Universitaria Rodrigo Facio en la Universidad de Costa Rica, se realiza la primera conexión a Internet, convirtiendo a Costa Rica en el quinto país de América Latina en conectarse a la red mundial que cambiaría para siempre en el mundo los esquemas tradicionales de comunicación, la gestión de la información y el conocimiento.",
                 "ico": "worldwide.svg"
             }
@@ -44,27 +44,19 @@
             {
                 "id": "1994-1",
                 "descripcion": "Maecenas pede purus, tristique ac tempus eget. ",
-                "link": "https://www.mep.go.cr/",
+                "link": "http://www.cse.go.cr/sites/default/files/files/Politica%20Educativa%20hacia%20el%20Siglo%20XXI.pdf",
                 "modal": "Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris. Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lacinia pretium, pede metus molestie lacus, at gravida wisi ante at libero. Quisque ornare placerat risus.",
                 "ico": "school.svg"
-            },
-            {
-                "id": "1994-2",
-                "descripcion": "Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor.",
-                "link": "https://www.mep.go.cr/",
-                "modal": "Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl. Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh.",
-                "ico": "lab.svg"
             }
-
         ]
     },
     {
         "anno": 1995,
         "hitos": [
             {
-                "id": "2016-1",
+                "id": "1995-1",
                 "descripcion": "Promulgación de la Política Curricular",
-                "link": "https://www.mep.go.cr/",
+                "link": "http://www.mep.go.cr/",
                 "modal": "Un hecho relevante en la historia de la inclusión de las TD en la educación costarricense lo demarca la aprobación de la Política Curricular, en el marco de la visión “Educar para una Nueva Ciudadanía”, para el desarrollo de habilidades que permiten la dinamización de los aprendizajes para la vida y el fortalecimiento del pensamiento crítico, creativo y actitudinal.",
                 "ico": "school.svg"
             }        
@@ -75,7 +67,7 @@
         "anno": 2002,
         "hitos": [
             {
-                "id": "2017-1",
+                "id": "2002-1",
                 "descripcion": "Promulgación de la Política Educativa",
                 "link": "https://www.mep.go.cr/",
                 "modal": "La Política Educativa, “La persona: centro del proceso educativo y sujeto transformador de la sociedad”, plantea la educación centrada en la persona estudiante, la educación basada en los derechos humanos y los deberes ciudadanos, la educación para el desarrollo sostenible, la ciudadanía planetaria con identidad nacional, la ciudadanía digital con equidad social y la evaluación transformadora para la toma de decisiones.",
@@ -88,7 +80,7 @@
         "anno": 2004,
         "hitos": [
             {
-                "id": "2019-1",
+                "id": "2004-1",
                 "descripcion": "Modelo para la Inclusión de Tecnologías Digitales en Educación",
                 "link": "https://www.mep.go.cr/",
                 "modal": "Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus.",
@@ -101,96 +93,64 @@
         "anno": 2007,
         "hitos": [
             {
-                "id": "2020-1",
+                "id": "2007-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
-                "link": "https://www.mep.go.cr/",
+                "link": "https://www.drea.co.cr/tags/direcci%c3%b3n-de-recursos-tecnol%c3%b3gicos",
                 "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
                 "ico": "school.svg"
-            },
-            {
-                "id": "2020-2",
-                "descripcion": "Promulgación de la Política de Tecnologías de la Información",
-                "link": "https://www.mep.go.cr/",
-                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
-                "ico": "cloud.svg"
-            }  
-
+            }
         ]
     },
     {
         "anno": 2008,
         "hitos": [
             {
-                "id": "2020-1",
+                "id": "2008-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
-                "link": "https://www.mep.go.cr/",
+                "link": "https://sutel.go.cr/pagina/que-es-fonatel",
                 "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
                 "ico": "school.svg"
-            },
-            {
-                "id": "2020-2",
-                "descripcion": "Promulgación de la Política de Tecnologías de la Información",
-                "link": "https://www.mep.go.cr/",
-                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
-                "ico": "cloud.svg"
-            }  
-
+            }
         ]
     },
     {
         "anno": 2011,
         "hitos": [
             {
-                "id": "2020-1",
+                "id": "2011-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
-                "link": "https://www.mep.go.cr/",
+                "link": "http://www.mep.go.cr/sites/default/files/recursos/archivo/cerrando_brechas.pdf",
                 "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
                 "ico": "school.svg"
-            },
-            {
-                "id": "2020-2",
-                "descripcion": "Promulgación de la Política de Tecnologías de la Información",
-                "link": "https://www.mep.go.cr/",
-                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
-                "ico": "cloud.svg"
-            }  
-
+            }
         ]
     },
     {
         "anno": 2015,
         "hitos": [
             {
-                "id": "2020-1",
+                "id": "2015-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
-                "link": "https://www.mep.go.cr/",
+                "link": "https://www.mep.go.cr/sites/default/files/folleto-pntm.pdf",
                 "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
                 "ico": "school.svg"
-            },
-            {
-                "id": "2020-2",
-                "descripcion": "Promulgación de la Política de Tecnologías de la Información",
-                "link": "https://www.mep.go.cr/",
-                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
-                "ico": "cloud.svg"
-            }  
-
+            }
         ]
     },
     {
         "anno": 2016,
         "hitos": [
             {
-                "id": "2020-1",
+                "id": "2016-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
-                "link": "https://www.mep.go.cr/",
+                "link": "https://www.drea.co.cr/sites/default/files/Contenido/2016%2004%2025%20Resoluci%c3%b3n%20Dm-1190-04-2016%20Traslado%20del%20programa%20a%20DRTE.pdf",
                 "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
                 "ico": "school.svg"
             },
             {
-                "id": "2020-2",
+                "id": "2016-2",
                 "descripcion": "Promulgación de la Política de Tecnologías de la Información",
-                "link": "https://www.mep.go.cr/",
+                "link": "https://www.dropbox.com/s/rk9tv9reyilei0s/Educar_para_una_nueva_ciudadaniafinal.pdf?dl=0",
                 "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
                 "ico": "cloud.svg"
             }  
@@ -203,18 +163,10 @@
             {
                 "id": "2020-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
-                "link": "https://www.mep.go.cr/",
+                "link": "https://www.dropbox.com/s/p6muutvmigor9zd/Politica_educativa.pdf?dl=0",
                 "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
                 "ico": "school.svg"
-            },
-            {
-                "id": "2020-2",
-                "descripcion": "Promulgación de la Política de Tecnologías de la Información",
-                "link": "https://www.mep.go.cr/",
-                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
-                "ico": "cloud.svg"
-            }  
-
+            } 
         ]
     },
     {
@@ -223,18 +175,24 @@
             {
                 "id": "2020-1",
                 "descripcion": "Firma de la Red Educativa del Bicentenario",
-                "link": "https://www.mep.go.cr/",
+                "link": "https://www.dropbox.com/s/174dnk9doa86nwl/Presentaci%C3%B3n%20MITDE-FINAL.pdf?dl=0",
                 "modal": "La Red Educativa del Bicentenario que pretende construir un servicio institucional tecnológico que aprovisionará de una red de banda ancha a los centros educativos, y demás dependencias del MEP. Asimismo, como complemento de este proyecto, el MEP está impulsando el diseño y ejecución de la Plataforma Ministerial SABER (Sistema de Administración Básica de la Educación y sus Recursos), solución tecnológica que pretende integrar la labor educativa con las gestiones administrativas y dar seguimiento a la implementación de las políticas educativas.",
                 "ico": "school.svg"
             },
             {
                 "id": "2020-2",
                 "descripcion": "Promulgación de la Política de Tecnologías de la Información",
-                "link": "https://www.mep.go.cr/",
+                "link": "http://mep.go.cr/sites/default/files/politica-tics.pdf",
                 "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
                 "ico": "cloud.svg"
-            }  
-
+            }, 
+            {
+                "id": "2020-2",
+                "descripcion": "Promulgación de la Política de Tecnologías de la Información",
+                "link": "https://www.dropbox.com/s/kt1b3011fb432hi/Anexo%20Convenio%20FOD.pdf?dl=0",
+                "modal": "La Política Institucional en Tecnologías de la Información (TI) pretende potenciar el acceso, el uso y la apropiación de las tecnologías digitales para apoyar la transformación del proceso de enseñanza - aprendizaje y la gestión educativa desde las diferentes instancias y niveles ministeriales. Por último, acompañado a la Política TI, se presenta el Plan Estratégico de Tecnologías de Información (PETI), con el fin de determinar las acciones que garanticen el cumplimiento de los objetivos planteados en esta materia.",
+                "ico": "cloud.svg"
+            }
         ]
     }
 ]
