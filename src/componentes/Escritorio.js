@@ -8,7 +8,8 @@ export default function Escritorio(props) {
     return (
         <React.Fragment>
             <div className="jumbotron">
-                <h1>Línea de tiempo PNTM</h1>
+                <h1>Antecedentes TDIC</h1>
+                <h2>Hacia una ciudadanía digital con equidad social</h2>
                 <strong>
                     <span className="font-2" >
                         Línea de Tiempo de la Inclusión de las Tecnologías Digitales en la Educación Costarricense
